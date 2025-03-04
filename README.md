@@ -9,22 +9,7 @@ This is a sophisticated particle diffusion simulation built using Pygame and Num
 - Particle concentration heatmap
 - Monte Carlo Pi estimation
 - Interactive simulation controls
-
-## Prerequisites
-- Python 3.8+
-- Pygame
-- NumPy
   
-## Simulation Controls
-- `R`: Restart simulation
-- `S`: Speed up time
-- `T`: Increase temperature (+5°C)
-- `M`: Increase particle mass (+0.5)
-- `V`: Reduce viscosity
-- `C`: Toggle particle collisions
-- `H`: Toggle heatmap
-- `P`: Toggle Monte Carlo Pi estimation
-
 ## Physics Highlights
 - Implements Langevin dynamics for particle movement
 - Calculates water viscosity based on temperature
@@ -36,11 +21,42 @@ This is a sophisticated particle diffusion simulation built using Pygame and Num
 - Concentration heatmap
 - Monte Carlo Pi estimation visualization
 - Particle trajectory rendering
+  
+## Prerequisites
+- Python 3.8+
+- Pygame
+- NumPy
 
-## Performance Optimization
-- Spatial grid-based collision detection
-- Efficient Monte Carlo point tracking
+## Project Structure
+- `main.py`:  **Core Simulation Engine**
+  - Primary simulation loop
+  - User interaction handling
+  - Particle initialization and management
+  - Main simulation flow control
 
+- `physics_engine.py`:  **Physical Dynamics**
+  - Implements Langevin dynamics
+  - Calculates water viscosity
+  - Manages particle concentration grid
+  - Applies physical force calculations
+
+- `helpers.py`:  **Utility Functions**
+  - Rendering support functions
+  - Spatial grid management
+  - Collision detection
+  - Monte Carlo visualization helpers
+  - Statistical and visualization utilities
+
+## Simulation Controls
+- `R`: Restart simulation
+- `S`: Speed up time
+- `T`: Increase temperature (+5°C)
+- `M`: Increase particle mass (+0.5)
+- `V`: Reduce viscosity
+- `C`: Toggle particle collisions
+- `H`: Toggle heatmap
+- `P`: Toggle Monte Carlo Pi estimation
+ 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
