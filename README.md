@@ -4,7 +4,7 @@
 This is a sophisticated particle diffusion simulation built using Pygame and NumPy, demonstrating particle behavior under Langevin dynamics with interactive features and visualization techniques.
 
 ## Demo
-[25°C Water vs 100°C Water vs in Gravity](.mp4/comined_c)
+[25°C Water vs 100°C Water vs in Gravity](.mp4/test1)
 
 ## Features
 - Realistic particle movement using Langevin dynamics
