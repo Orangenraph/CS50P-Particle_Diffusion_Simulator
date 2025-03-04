@@ -42,7 +42,7 @@ This is a sophisticated particle diffusion simulation built using Pygame and Num
 - Efficient Monte Carlo point tracking
 
 ## License
-[Insert your license here]
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Author
 Raphael Zährer, Connect with me on [LinkedIn](https://www.linkedin.com/in/raphael-z%C3%A4hrer-57b7682b3/)
