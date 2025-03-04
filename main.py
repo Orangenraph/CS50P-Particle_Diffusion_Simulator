@@ -53,6 +53,8 @@ mc_points_total = 0
 MC_QUADRAT_SIZE = screen_width
 MC_OFFSET_X = 0 # X-Position square
 MC_OFFSET_Y = 0 # Y-Position square
+pi_approxi = 0
+accuracy = 0
 
 
 class Particle:
@@ -156,7 +158,7 @@ def main():
 
 def run_simulation(n , online=True, simulation_time=0):
     '''Centerpiece, contains everything to run the simulation'''
-    global TEMPERATURE, MASS, VISCOSITY_FACTOR, num_particles, COLLISION_ENABLED,HEATMAP_ENABLED, MONTECARLO_ENABLED, mc_points_total, mc_points_inside, DT
+    global TEMPERATURE, MASS, VISCOSITY_FACTOR, num_particles, COLLISION_ENABLED,HEATMAP_ENABLED, MONTECARLO_ENABLED, mc_points_total, mc_points_inside, DT, accuracy, pi_approxi
 
     # lists particles
     particles = [Particle((X_AXIS / 2), (Y_AXIS / 2)) for _ in range(n)]
