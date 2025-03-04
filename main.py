@@ -40,7 +40,7 @@ VISCOSITY_FACTOR = 1.0  # for scaling die VISCOSITY
 
 COLLISION_ENABLED = False
 HEATMAP_ENABLED = True
-MONTECARLO_ENABLED = True
+MONTECARLO_ENABLED = False
 
 '''Coordinate system'''
 X_AXIS = screen_width
