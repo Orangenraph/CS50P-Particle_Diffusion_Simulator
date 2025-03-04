@@ -3,6 +3,9 @@
 ## Overview
 This is a sophisticated particle diffusion simulation built using Pygame and NumPy, demonstrating particle behavior under Langevin dynamics with interactive features and visualization techniques.
 
+## Video Demo: 
+https://vimeo.com/1062560321/abda9c0b67?share=copy
+
 ## Example
 ![Diffusion Comparison](diffusion_comparison_example.gif)
 
