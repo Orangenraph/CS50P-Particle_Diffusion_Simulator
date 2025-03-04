@@ -14,7 +14,7 @@ This is a sophisticated particle diffusion simulation built using Pygame and Num
 - Python 3.8+
 - Pygame
 - NumPy
-- 
+  
 ## Simulation Controls
 - `R`: Restart simulation
 - `S`: Speed up time
@@ -46,6 +46,3 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## Author
 Raphael Zährer, Connect with me on [LinkedIn](https://www.linkedin.com/in/raphael-z%C3%A4hrer-57b7682b3/)
-
-## Contributing
-Contributions are welcome! Please submit pull requests or open issues.
