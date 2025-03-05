@@ -28,7 +28,7 @@ def draw_stats(particles, simulation_time, viscosity,mass, temperatur, VISCOSITY
     info_lines = [
         f"Particles: {len(particles)}",
         f"Time: {round(simulation_time, 2)}s",
-        f"Temperatur: {temperatur}°C",
+        f"Temperature: {temperatur}°C",
         f"Mass: {mass}",
         f"Viscosity: {round((viscosity * VISCOSITY_FACTOR), 5) }",
         f"Pi Approximation: {round(pi_approxi, 7)}",
